@@ -15,8 +15,8 @@ This project is a mobile application that allows students, staff and lecturers t
 
 ## 🛠️ Tech Stack
 
- - Frontend : Flutter (`mobileproject/Projectmobile/lib`)
- - Backend : Node.js + Express (`mobileproject/Projectmobile/server`)
+ - Frontend : Flutter (`mobileproject/Projectmobile/project/lib`)
+ - Backend : Node.js + Express (`mobileproject/server`)
  - Database : MySQL (XAMPP)
  - API : RESTful ( IP :`http://localhost:3000`)
 
