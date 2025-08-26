@@ -41,7 +41,7 @@ cd mobileproject/Projectmobile`
 
 
 4. Frontend Setup
-	`flutter pub get`
+	`flutter pub get`  
 	`flutter run`
 
 	- On VS Code : Run > Run Without Debugging and select your device/simulator
