@@ -26,10 +26,10 @@ This project is a mobile application that allows students, staff and lecturers t
  `git clone https://github.com/Cha-cheese/asset-borrowing-system.git
 cd mobileproject/Projectmobile`
 
- 2. Backend Setup
- `cd server`
- `npm install` 
-`nodemon app.js`
+ 2. Backend Setup  
+ `cd server`  
+ `npm install`   
+`nodemon app.js`  
 	- Server will run at : http://localhost:3000
 	- Note : Replace localhost in Flutter code with your machine's IP when using a real device :
 	`Uri.parse('http://<YOUR_MACHINE_IP>:3000/<endpoint>')`
@@ -40,7 +40,7 @@ cd mobileproject/Projectmobile`
 	- Ensure database credentials in `server/config` match your setup
 
 
-4. Frontend Setup
+4. Frontend Setup  
 	`flutter pub get`  
 	`flutter run`
 
