@@ -24,7 +24,7 @@ This project is a mobile application that allows students, staff and lecturers t
 
  1. Clone the repository  
  `git clone https://github.com/Cha-cheese/asset-borrowing-system.git`  
-`cd mobileproject/Projectmobile`
+`cd mobileproject/project`
 
  2. Backend Setup  
  `cd server`  
