@@ -1,0 +1,9 @@
+# Flutter
+build/
+.idea/
+*.iml
+*.lock
+pubspec.lock
+
+# Optional
+*.DS_Store

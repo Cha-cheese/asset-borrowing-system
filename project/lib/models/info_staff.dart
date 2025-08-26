@@ -1,0 +1,55 @@
+// info.dart
+class Info {
+  static List<Map<String, String>> books = [
+    {
+      'title': 'Book Name 1',
+      'borrowedDate': '01/01/2023',
+      'dueDate': '01/02/2023',
+      'username': 'user1',
+      'status': 'approved',
+      'approver': 'lender1',
+      'return asset': 'Staff1',
+      'image': 'assets/images/book1.png',
+    },
+    {
+      'title': 'Book Name 2',
+      'borrowedDate': '01/02/2023',
+      'dueDate': '01/03/2023',
+      'username': 'user2',
+      'status': 'approved',
+      'approver': 'lender2',
+      'return asset': 'Staff2',
+      'image': 'assets/images/book2.png',
+    },
+    {
+      'title': 'Book Name 3',
+      'borrowedDate': '01/03/2023',
+      'dueDate': '-',
+      'username': 'user3',
+      'status': 'rejected',
+      'approver': 'lender3',
+      'return asset': '-',
+      'image': 'assets/images/book3.png',
+    },
+    {
+      'title': 'Book Name 4',
+      'borrowedDate': '01/04/2023',
+      'dueDate': '01/05/2023',
+      'username': 'user4',
+      'status': 'borrowing',
+      'approver': 'lender4',
+      'return asset': '-',
+      'image': 'assets/images/book4.png',
+    },
+    {
+      'title': 'Book Name 5',
+      'borrowedDate': '01/05/2023',
+      'dueDate': '-',
+      'username': 'user5',
+      'status': 'rejected',
+      'approver': 'lender5',
+      'return asset': '-',
+      'image': 'assets/images/book5.png',
+    },
+  ];
+}

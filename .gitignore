@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -137,3 +138,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Flutter
+project/build/
+project/.dart_tool/
+project/.idea/
+project/*.iml
+project/pubspec.lock
+
+# Node.js
+server/node_modules/
+server/.env
+>>>>>>> 9abc36c (Initial commit: Add mobile project and README)
