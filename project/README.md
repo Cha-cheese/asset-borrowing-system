@@ -1,16 +1,48 @@
-# project
+# Asset Borrowing System - mobileproject
 
-A new Flutter project.
+**Mobile Application (Flutter) + REST API (Node.js) + MySQL Database (XAMPP) **
 
-## Getting Started
+This project is a mobile application that allows students, staff and lecturers to efficiently manage borrowing and returning of assets.
 
-This project is a starting point for a Flutter application.
+# 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+ - Role-based login : Student, Staff, Lecturer
+ - Asset borrowing with status : available, pending, borrowed, disabled
+ -   Borrowing rules : 
+	 - Students can borrow 1 asset per day
+	 - Maximum borrowing period is 7 days
+ - Asset Control : Staff can add,edit, or disable assets (only when status = available)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - Frontend : Flutter (`mobileproject/Projectmobile/project/lib`)
+ - Backend : Node.js + Express (`mobileproject/server`)
+ - Database : MySQL (XAMPP)
+ - API : RESTful ( IP :`http://localhost:3000`)
+
+## ⚙️ Quick Start
+
+ 1. Clone the repository
+ `git clone https://github.com/your-username/mobileproject.git
+cd mobileproject/Projectmobile`
+
+ 2. Backend Setup
+ `cd server`
+ `npm install` 
+`nodemon app.js`
+	- Server will run at : http://localhost:3000
+	- Note : Replace localhost in Flutter code with your machine's IP when using a real device :
+	`Uri.parse('http://<YOUR_MACHINE_IP>:3000/<endpoint>')`
+
+3. Database Setup (XAMPP)
+	- Start MySQL 
+	- Import the provided SQL file `mbproject.sql`
+	- Ensure database credentials in `server/config` match your setup
+
+
+4. Frontend Setup
+	`flutter pub get`
+	`flutter run`
+
+	- On VS Code : Run > Run Without Debugging and select your device/simulator
+	- Make sure device or simulator is on the same network as the server if using a real device.
